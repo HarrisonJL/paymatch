@@ -1,0 +1,735 @@
+the document's bytes are not checked against its address
+---
+    elif digest != _cid_digest(cid):
+---
+    elif False:
+===
+a document without a body is accepted
+---
+isinstance(message.get("body"), str)
+---
+True
+===
+a document without a title is accepted
+---
+isinstance(message.get("title"), str)
+---
+True
+===
+a document without a space is accepted
+---
+isinstance(message.get("space"), str)):
+---
+True):
+===
+the gateway's HTTP status is ignored
+---
+    if status != 200:
+        problems.append(f"document_http_{status}")
+---
+    if False:
+        problems.append(f"document_http_{status}")
+===
+a CID of another kind is accepted
+---
+    if raw[:4] != CID_PREFIX:
+---
+    if False:
+===
+the vote's id is not checked
+---
+proposal.get("id") != proposal_id
+---
+False
+===
+the vote may be for a different document
+---
+        if proposal.get("ipfs") != cid:
+---
+        if False:
+===
+an open vote is accepted
+---
+        if facts["state"] != "closed":
+---
+        if False:
+===
+a tied vote passes
+---
+facts["approved"] = yes_score > no_score
+---
+facts["approved"] = yes_score >= no_score
+===
+a vote with nothing to lose to is accepted
+---
+            if len(yes) != 1 or not no:
+---
+            if len(yes) != 1:
+===
+a vote with several ways to say yes is accepted
+---
+            if len(yes) != 1 or not no:
+---
+            if not no:
+===
+the vote end may be missing
+---
+        if facts["end"] <= 0:
+---
+        if False:
+===
+a vote in another space is accepted
+---
+        if hub["space"] and hub["space"] != doc["space"]:
+---
+        if False:
+===
+unreadable vote results are accepted
+---
+and all(isinstance(c, str) for c in choices)
+---
+and True
+===
+the vote's HTTP status is ignored
+---
+    if status != 200:
+        problems.append(f"vote_http_{status}")
+---
+    if False:
+        problems.append(f"vote_http_{status}")
+===
+the token address is not checked
+---
+str(doc.get("address_hash", "")).casefold() == address
+---
+True
+===
+the token symbol is not checked
+---
+and doc.get("symbol") == symbol
+---
+and True
+===
+the token decimals are not checked
+---
+and str(doc.get("decimals")) == str(decimals)
+---
+and True
+===
+the token type is not checked
+---
+and doc.get("type") == "ERC-20")
+---
+and True)
+===
+the token record's HTTP status is ignored
+---
+    if status != 200:
+        problems.append(f"token_http_{status}")
+---
+    if False:
+        problems.append(f"token_http_{status}")
+===
+the recipient need not be in the document
+---
+"recipient": claim["recipient"] in body.casefold(),
+---
+"recipient": True,
+===
+the asset symbol need not be in the document
+---
+"symbol": re.search(r"\b" + claim["asset"] + r"\b", body, re.I) is not None,
+---
+"symbol": True,
+===
+the cap need not be in the document
+---
+"cap": _cap_scaled(claim["cap"]) in _numbers(body),
+---
+"cap": True,
+===
+one real fragment is enough for a quote
+---
+    if not all(f in text for f in fragments):
+---
+    if not any(f in text for f in fragments):
+===
+a quote need not state the amount
+---
+return (_cap_scaled(claim["cap"]) in _numbers(evidence)
+---
+return (True
+===
+a quote need not name the asset
+---
+and re.search(r"\b" + claim["asset"] + r"\b", evidence, re.I) is not None)
+---
+and True)
+===
+a quote with no substantial fragment is accepted
+---
+    if not fragments:
+        return False
+    text = 
+---
+    if False:
+        return False
+    text = 
+===
+the quote is not checked for being a string
+---
+    if not isinstance(evidence, str):
+        return False
+    fragments
+---
+    if False:
+        return False
+    fragments
+===
+a vote that lost is not reported
+---
+    if not summary["vote"]["approved"] and not any(r.startswith("vote_") for r in reasons):
+---
+    if False:
+===
+an unreadable reader answer is accepted
+---
+    if reading is None:
+        reasons.append("document_unreadable")
+---
+    if False:
+        reasons.append("document_unreadable")
+===
+a reader that says no is ignored
+---
+    elif not reading["authorises"]:
+---
+    elif False:
+===
+an ungrounded quote is accepted
+---
+    elif not reading["grounded"]:
+---
+    elif False:
+===
+the reader is called when the facts already refuse
+---
+    if summary["problems"]:
+        return None
+    prompt
+---
+    if False:
+        return None
+    prompt
+===
+the reader's answer need not be a boolean
+---
+    return result if isinstance(result, dict) and isinstance(result.get("authorises"), bool) else None
+---
+    return result if isinstance(result, dict) else None
+===
+the reader's quote is trusted without checking
+---
+"grounded": _evidence_grounded(evidence, body, claim)}
+---
+"grounded": True}
+===
+a reading's shape is not checked
+---
+isinstance(reading["authorises"], bool) and isinstance(reading["grounded"], bool)
+---
+True
+===
+auth_id can be registered twice
+---
+        _require(auth_id not in self.authorisations, "auth_id already registered")
+---
+        _require(True, "auth_id already registered")
+===
+the proposal id format is loosened
+---
+r"0x[0-9a-f]{64}", proposal_id
+---
+r"0x[0-9a-fA-F]{64}", proposal_id
+===
+any CID is accepted
+---
+        _require(_cid_digest(doc_cid) != "",
+---
+        _require(True,
+===
+the recipient may be malformed
+---
+_require(re.fullmatch(r"0x[0-9a-fA-F]{40}", recipient) is not None, "recipient must be a 0x address")
+---
+_require(True, "recipient must be a 0x address")
+===
+the payer may be malformed
+---
+_require(re.fullmatch(r"0x[0-9a-fA-F]{40}", payer) is not None, "payer must be a 0x address")
+---
+_require(True, "payer must be a 0x address")
+===
+an asset outside the pinned list is accepted
+---
+        _require(asset in ASSETS, f"asset must be one of {
+---
+        _require(True, f"asset must be one of {
+===
+a zero cap is accepted
+---
+and _cap_scaled(cap) > 0,
+---
+and True,
+===
+a label may be empty or huge
+---
+        _require(1 <= len(label) <= MAX_LABEL_LEN,
+---
+        _require(True,
+===
+recipient and payer may be the same
+---
+        _require(recipient != payer,
+---
+        _require(True,
+===
+one vote can authorise the same payer, recipient and asset twice
+---
+        _require(vote_key not in self.by_vote,
+---
+        _require(True,
+===
+the payer is left out of the vote key
+---
+vote_key = f"{proposal_id}|{recipient}|{payer}|{asset}"
+---
+vote_key = f"{proposal_id}|{recipient}|{asset}"
+===
+an impossible valid_until date is accepted
+---
+            except ValueError:
+                _require(False, "valid_until is not a real date")
+---
+            except ValueError:
+                valid_to = 0
+===
+valid_until ends at the start of its day
+---
+datetime.timezone.utc).timestamp()) + 86399
+---
+datetime.timezone.utc).timestamp()) + 0
+===
+the approval time is not recorded
+---
+        a.approved_at = u64(facts["vote"]["end"])
+---
+        a.approved_at = u64(0)
+===
+the cap is stored in whole units
+---
+a.cap_raw = u256(_raw_cap(cap, ASSETS[asset][1]))
+---
+a.cap_raw = u256(_raw_cap(cap, 0))
+===
+the payer is not stored
+---
+        a.payer = payer
+
+---
+        a.payer = recipient
+
+===
+the quote is not stored
+---
+        a.evidence = reading["evidence"]
+---
+        a.evidence = ""
+===
+registration does not wait for the refusal reasons
+---
+        _require(not reasons, "authorisation refused: " + ", ".join(reasons))
+---
+        _require(True, "authorisation refused: " + ", ".join(reasons))
+===
+registration validators skip comparing the facts
+---
+            if leader.get("facts") != mine["summary"]:
+                return False
+---
+            if False:
+                return False
+===
+registration validators accept an ungrounded leader quote
+---
+                if theirs["grounded"] != _evidence_grounded(theirs["evidence"], mine["body"], claim):
+                    return False
+---
+                if False:
+                    return False
+===
+registration validators accept a reading of nothing
+---
+                if mine["summary"]["problems"]:
+                    return False
+                if theirs["grounded"]
+---
+                if False:
+                    return False
+                if theirs["grounded"]
+===
+registration validators ignore their own reader
+---
+            return (not _decide_authorisation(mine["summary"], theirs)) == (not _decide_authorisation(mine["summary"], mine_reading))
+---
+            return True
+===
+thousands are read as hundreds
+---
+    if suffix in ("k", "K"):
+        value *= 1000
+---
+    if suffix in ("k", "K"):
+        value *= 100
+===
+millions are read as thousands
+---
+    elif suffix in ("m", "M"):
+        value *= 1000000
+---
+    elif suffix in ("m", "M"):
+        value *= 1000
+===
+fractions are dropped from document amounts
+---
+int((frac or "")[:6].ljust(6, "0"))
+---
+0
+===
+the cap's fraction is dropped
+---
+return int(whole) * 10 ** decimals + int(frac.ljust(decimals, "0")[:decimals] or "0")
+---
+return int(whole) * 10 ** decimals
+===
+a non-ERC-20 item is counted
+---
+        if _dig(item, "token", "type") != "ERC-20":
+---
+        if False:
+===
+a full page is treated as complete
+---
+ and len(items) < TRANSFER_PAGE
+---
+
+===
+a next page is ignored
+---
+complete = not (isinstance(page, dict) and page.get("next_page_params"))
+---
+complete = True
+===
+Blockscout confirmations are not required
+---
+confirmed = isinstance(confirmations, int) and confirmations >= MIN_CONFIRMATIONS
+---
+confirmed = True
+===
+Blockscout success is assumed
+---
+tx.get("status") == "ok" and tx.get("result") == "success"
+---
+True
+===
+a missing transaction on Blockscout is an error
+---
+    if status == 404:
+        return {"found": False}, []
+---
+    if False:
+        return {"found": False}, []
+===
+a reorged log is counted
+---
+ or log.get("removed"):
+---
+:
+===
+any event is a transfer (signature)
+---
+topics[0] != TRANSFER_TOPIC
+---
+False
+===
+a four-topic event is a transfer
+---
+if len(topics) != 3 or
+---
+if False or
+===
+Routescan success is assumed
+---
+success = receipt["status"] == "0x1"
+---
+success = True
+===
+Routescan confirmations are not required
+---
+latest - block >= MIN_CONFIRMATIONS, True, transfers,
+---
+True, True, transfers,
+===
+Routescan block time may be missing
+---
+    if timestamp is None or latest is None:
+---
+    if False:
+===
+one indexer saying not found against the other is ignored
+---
+        if a["found"] != b["found"]:
+---
+        if False:
+===
+a transaction found by neither is a payment
+---
+        elif not a["found"]:
+---
+        elif False:
+===
+an incomplete listing is accepted
+---
+        elif not a["complete"]:
+---
+        elif False:
+===
+the two indexers need not agree
+---
+        elif a != b:
+---
+        elif False:
+===
+a failure on either indexer is ignored
+---
+    problems = list(a_problems) + list(b_problems)
+    if not problems:
+---
+    problems = []
+    if not problems:
+===
+a reverted transaction can match
+---
+    if not view["success"]:
+---
+    if False:
+===
+a transaction that is not final can match
+---
+    if not view["confirmed"]:
+---
+    if False:
+===
+any sender counts as the payer
+---
+if t[1] == payer and t[2] == recipient)
+---
+if t[2] == recipient)
+===
+any recipient counts
+---
+if t[1] == payer and t[2] == recipient)
+---
+if t[1] == payer)
+===
+a payment in another token is not named
+---
+        if any(t[0] != auth["asset_address"] and t[1] == recipient for t in view["other_from_payer"]):
+---
+        if False:
+===
+a payment from another sender is not named
+---
+        if any(t[2] == recipient for t in moved):
+---
+        if False:
+===
+a payment to someone else is not named
+---
+        if any(t[1] == payer for t in moved):
+---
+        if False:
+===
+a payment before the vote closed can match
+---
+    if view["time"] < auth["approved_at"]:
+---
+    if False:
+===
+the second the vote closed is too early
+---
+    if view["time"] < auth["approved_at"]:
+---
+    if view["time"] <= auth["approved_at"]:
+===
+a payment after valid_until can match
+---
+    if auth["valid_to"] and view["time"] > auth["valid_to"]:
+---
+    if False:
+===
+valid_until excludes its last second
+---
+    if auth["valid_to"] and view["time"] > auth["valid_to"]:
+---
+    if auth["valid_to"] and view["time"] >= auth["valid_to"]:
+===
+no valid_until means nothing can be paid
+---
+    if auth["valid_to"] and view["time"] > auth["valid_to"]:
+---
+    if view["time"] > auth["valid_to"]:
+===
+a payment over the cap matches
+---
+    if matched_before + received > auth["cap_raw"]:
+---
+    if False:
+===
+the cap is exclusive
+---
+    if matched_before + received > auth["cap_raw"]:
+---
+    if matched_before + received >= auth["cap_raw"]:
+===
+earlier payments do not count against the cap
+---
+    if matched_before + received > auth["cap_raw"]:
+---
+    if received > auth["cap_raw"]:
+===
+an OVER_CAP payment is counted as paid
+---
+            if verdict == "MATCH":
+                stored.matched_raw
+---
+            if verdict in ("MATCH", "OVER_CAP"):
+                stored.matched_raw
+===
+a matched payment is not counted
+---
+stored.matched_raw = u256(int(stored.matched_raw) + received)
+---
+stored.matched_raw = u256(int(stored.matched_raw))
+===
+a flagged payment is not counted
+---
+stored.flagged_count = u32(stored.flagged_count + 1)
+---
+stored.flagged_count = u32(stored.flagged_count)
+===
+an undetermined verdict blocks a retry
+---
+        if verdict in DECIDED:
+---
+        if True:
+===
+a decided transaction can be verified twice
+---
+        _require(f"{auth_id}|{tx_hash}" not in self.decided,
+---
+        _require(True,
+===
+the transaction hash format is loosened
+---
+r"0x[0-9a-f]{64}", tx_hash
+---
+r"0x[0-9a-fA-F]{64}", tx_hash
+===
+a history is not chained
+---
+        record.previous_id = stored.latest_id if stored.payment_count > 0 else u32(0)
+---
+        record.previous_id = u32(0)
+===
+the amount received is not recorded
+---
+        record.amount_raw = u256(received)
+---
+        record.amount_raw = u256(0)
+===
+the verdict is taken without the authorisation's own state
+---
+        verdict, reasons, received = _judge(auth, facts, matched_before)
+---
+        verdict, reasons, received = _judge(auth, facts, 0)
+===
+payment validators skip comparing the facts
+---
+            return leader["facts"] == mine
+---
+            return True
+===
+payment validators accept a leader that sent no facts
+---
+            if not isinstance(leader, dict) or not isinstance(leader.get("facts"), dict):
+                return False
+            mine
+---
+            if False:
+                return False
+            mine
+===
+scores are stored as floats
+---
+                facts["for_score"], facts["against_score"] = repr(yes_score), repr(no_score)
+---
+                facts["for_score"], facts["against_score"] = yes_score, no_score
+===
+a reader exception escapes
+---
+    except Exception:
+        return None  # a model that did not return JSON
+---
+    except ZeroDivisionError:
+        return None  # a model that did not return JSON
+===
+markdown is not reduced in the document
+---
+    text = _plain(body).casefold()
+---
+    text = _squash(body).casefold()
+===
+markdown is not reduced in the quote
+---
+                 for f in re.split(r"\.\.\.|…|(?<=[.;])\s+", _plain(evidence))]
+---
+                 for f in re.split(r"\.\.\.|…|(?<=[.;])\s+", _squash(evidence))]
+===
+an ungrounded quote is not asked again
+---
+    for attempt in range(READ_ATTEMPTS):  # an unreadable or ungrounded answer is asked for once more, then fails closed
+        result = _ask(
+---
+    for attempt in range(1):  # an unreadable or ungrounded answer is asked for once more, then fails closed
+        result = _ask(
+===
+a refusal is asked again
+---
+            return {"authorises": False, "evidence": None, "grounded": False}  # a refusal is never retried
+---
+            continue
+===
+the retry note is dropped
+---
+        result = _ask(prompt + (RETRY_NOTE if attempt else ""))
+---
+        result = _ask(prompt)
+===
+an unreadable first answer ends the reading
+---
+        if result is None:
+            continue
+---
+        if result is None:
+            return reading

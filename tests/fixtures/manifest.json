@@ -1,0 +1,305 @@
+{
+ "captured": "2026-10-11",
+ "fixtures": {
+  "bs_transfers_eth.json": {
+   "bytes": 36,
+   "sha256": "9977e4f930f374aa0a43f4eec210158912002204f9667d4fb40a72b1fb8fc575",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x5f8c3a0b74fde822c4ea32d9f9ee5fb672a65dd9290f8448fde38dad1b4bdecf/token-transfers"
+  },
+  "bs_transfers_failed.json": {
+   "bytes": 36,
+   "sha256": "9977e4f930f374aa0a43f4eec210158912002204f9667d4fb40a72b1fb8fc575",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0xa72389d239eee71dfe9ea7a59a1a1b11e15028aa6f211dbc38bc3822164b83ed/token-transfers"
+  },
+  "bs_transfers_other.json": {
+   "bytes": 2820,
+   "sha256": "dd315017a15221fa94b4b9fa1a75ed450762aa7017f23afba2308b0c7a05ab95",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x6464aca3757d68a42ca8448af53207036b67c20ec8693f1d5ba4cc79d3881d72/token-transfers"
+  },
+  "bs_transfers_poison.json": {
+   "bytes": 10532,
+   "sha256": "c0c71a90c9d88cf1d62c796a54143d23f4263ca24b8ef52d244f19215b7f1b5b",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06/token-transfers"
+  },
+  "bs_transfers_spam.json": {
+   "bytes": 98625,
+   "sha256": "5a492d47ca58fb798de83b8b97b120860a79cc6b6276353267ec28e08f0ef236",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x641907b05caa5a18aecc9d8379f1322a52b81340731074caef7ec54ed02af3de/token-transfers"
+  },
+  "bs_transfers_t409.json": {
+   "bytes": 11158,
+   "sha256": "233e76f6f0cc01d62173c16e34ee77504837d4d3ac1c13d4c095aefa85463e78",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x7eadcd845362e160fa4a6f1918132c1b2c918fdb25e81cc3358ca11ef8daa1fe/token-transfers"
+  },
+  "bs_transfers_t470.json": {
+   "bytes": 8394,
+   "sha256": "beb45fdc9fe2fba4db590afd0c18d2d9bdb6a0ee5b169a36ef0ea12bf8378bc8",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036/token-transfers"
+  },
+  "bs_transfers_t836.json": {
+   "bytes": 8394,
+   "sha256": "c4adc3141f93df1ef34bad7b36e40376a08c4a614685ed54a3e6a4f5d36d4b83",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c/token-transfers"
+  },
+  "bs_tx_eth.json": {
+   "bytes": 2050,
+   "sha256": "a5447d1d032cc16e02814d556e877697622fdac7e570b07aa970854feec5a760",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x5f8c3a0b74fde822c4ea32d9f9ee5fb672a65dd9290f8448fde38dad1b4bdecf"
+  },
+  "bs_tx_failed.json": {
+   "bytes": 6664,
+   "sha256": "5a8dcc37d1525de226c69329a161d6529ae3f2629ef0916918ac57b576bf7c12",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0xa72389d239eee71dfe9ea7a59a1a1b11e15028aa6f211dbc38bc3822164b83ed"
+  },
+  "bs_tx_none.json": {
+   "bytes": 23,
+   "sha256": "bf96645a2721720fbe8fc0a47a243d73d5901e6213eb01c6eca976ab9bc18235",
+   "status": 404,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x0000000000000000000000000000000000000000000000000000000000000001"
+  },
+  "bs_tx_other.json": {
+   "bytes": 6695,
+   "sha256": "77fdc84d6432c135a0fc73e76f84677f73f04618a171fe73a343faa74de1db85",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x6464aca3757d68a42ca8448af53207036b67c20ec8693f1d5ba4cc79d3881d72"
+  },
+  "bs_tx_poison.json": {
+   "bytes": 27152,
+   "sha256": "13328aa88cfa85d0b20b51b8be7fe76b32d6ac9b7de8ab9af9cf25806376f6e3",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06"
+  },
+  "bs_tx_spam.json": {
+   "bytes": 291192,
+   "sha256": "5867874dc9ce2c0b4fc20909ab90304132e5c38fea609acbf5163eb727c38c83",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x641907b05caa5a18aecc9d8379f1322a52b81340731074caef7ec54ed02af3de"
+  },
+  "bs_tx_t409.json": {
+   "bytes": 26360,
+   "sha256": "b82fc29bffd7853a7986c2ce96bea0c7bac8c2f1b79842deb200cad8f3aae1b7",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x7eadcd845362e160fa4a6f1918132c1b2c918fdb25e81cc3358ca11ef8daa1fe"
+  },
+  "bs_tx_t470.json": {
+   "bytes": 22300,
+   "sha256": "6c6f7ff246371205da78c204987796b97b546c4d6c52786dec24a5f6686ae95b",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036"
+  },
+  "bs_tx_t836.json": {
+   "bytes": 13544,
+   "sha256": "52f8d8296dda9b6855151b492fb1a9f8d40d8cd8eb8fab56c169f2bfd0a348db",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/transactions/0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c"
+  },
+  "hub_eco409.json": {
+   "bytes": 349,
+   "sha256": "86006f7bc4fed410df59d9ad8b2fc2e9aa89237912a4ddaa475ebf44ff5a48a5",
+   "status": 200,
+   "url": "https://hub.snapshot.org/graphql?query=query%7Bproposal%28id%3A%220x12a2abca291496c7e990d099240b4c995099dc0fb85767e04f22b9496e953799%22%29%7Bid%20ipfs%20state%20scores%20choices%20end%20start%20space%7Bid%7D%7D%7D"
+  },
+  "hub_eco470.json": {
+   "bytes": 316,
+   "sha256": "c489d0cf03363e5e1d9813f11e8566530f3adf61c177644eae50b5ad5685c453",
+   "status": 200,
+   "url": "https://hub.snapshot.org/graphql?query=query%7Bproposal%28id%3A%220x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6%22%29%7Bid%20ipfs%20state%20scores%20choices%20end%20start%20space%7Bid%7D%7D%7D"
+  },
+  "hub_eco836.json": {
+   "bytes": 331,
+   "sha256": "c8e208957991cc2c36ba67d6e45563d110505675f4b4eb8d4216c59f5b5f517e",
+   "status": 200,
+   "url": "https://hub.snapshot.org/graphql?query=query%7Bproposal%28id%3A%220xfe303865510b5ef7fabee2bcbd5081afa01f276195f57e1561ff27c477459984%22%29%7Bid%20ipfs%20state%20scores%20choices%20end%20start%20space%7Bid%7D%7D%7D"
+  },
+  "hub_rejected.json": {
+   "bytes": 348,
+   "sha256": "85c485f79cd91a9358a0dde2cc0e7988efe76d9c57a367cd436f8de9f44a8b3d",
+   "status": 200,
+   "url": "https://hub.snapshot.org/graphql?query=query%7Bproposal%28id%3A%220xbc44d9714ee818da49c25998cabdbe745f939fef74923255c3571a00e8977e5d%22%29%7Bid%20ipfs%20state%20scores%20choices%20end%20start%20space%7Bid%7D%7D%7D"
+  },
+  "ipfs_eco409.json": {
+   "bytes": 5463,
+   "sha256": "1a01c8587eac61a5da4dd5f83630f59255fd1c4e203b25d168a315d4f979dbac",
+   "status": 200,
+   "url": "https://snapshot.4everland.link/ipfs/bafkreia2ahefq7vmmgs5utov7a3db5mskx6rytrahms5c2fdcxkps6o3vq"
+  },
+  "ipfs_eco470.json": {
+   "bytes": 6343,
+   "sha256": "2fe96c52d88b0b36abff0a9783780dd0405b5ec818e814c263dbeb1890ac5a7b",
+   "status": 200,
+   "url": "https://snapshot.4everland.link/ipfs/bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm"
+  },
+  "ipfs_eco836.json": {
+   "bytes": 5776,
+   "sha256": "87b823528e27b726170e7b0c495253d2d3e983a1d2adce98af087233a2033697",
+   "status": 200,
+   "url": "https://snapshot.4everland.link/ipfs/bafkreiehxarvfdrhw4tbodt3breveu6s2puyhiosvxhjrlyioiz2eazws4"
+  },
+  "ipfs_rejected.json": {
+   "bytes": 4304,
+   "sha256": "a7be1bef1e2c880c364bba7ab72abbec3ec830ed5f4ddeec8824badec4f63e54",
+   "status": 200,
+   "url": "https://snapshot.4everland.link/ipfs/bafkreifhxyn66hrmragdms52pk3svo7mh3edb3k7jxpozcbexlpmj5r6kq"
+  },
+  "rs_block_eth.json": {
+   "bytes": 27676,
+   "sha256": "6f613491776e2feb0a064150460aab866ee160014c6da534812d3765d2d447df",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x18dcc5c&boolean=false"
+  },
+  "rs_block_failed.json": {
+   "bytes": 17228,
+   "sha256": "ed717810b90604fbc9e6db7ea8bcd52024f41f327d32f8cb640502b3df42bf6b",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x18dca38&boolean=false"
+  },
+  "rs_block_other.json": {
+   "bytes": 27324,
+   "sha256": "98c99ea7ce8c8be3542213e6f8a4b15eb2d0e98eede8eeea5228a2cc6b14454c",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x174713b&boolean=false"
+  },
+  "rs_block_poison.json": {
+   "bytes": 21263,
+   "sha256": "0f52c6d48ff9a7c4f5d211c841562941ce3777c043df736f5a0afc674d260c31",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x17d70d8&boolean=false"
+  },
+  "rs_block_spam.json": {
+   "bytes": 53278,
+   "sha256": "9a9672df99849ef8a209e2fa37e414e012caf243a75889b7492a0108b86199f2",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x1822311&boolean=false"
+  },
+  "rs_block_t409.json": {
+   "bytes": 15421,
+   "sha256": "a7a252174f3ec765b7b9f5327df54fcb62a699c023b31cf0f6fb9311131018eb",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x11c0a24&boolean=false"
+  },
+  "rs_block_t470.json": {
+   "bytes": 20843,
+   "sha256": "7fe62a90864c9fff551d2e82483ed237006ac3c99478cee6b44ef98a1190205b",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x175992c&boolean=false"
+  },
+  "rs_block_t836.json": {
+   "bytes": 16820,
+   "sha256": "7dcb191df904009fb99d8f6556ecdffc7f58c575f01a71d9a732ef1ccb056621",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getBlockByNumber&tag=0x144ea4d&boolean=false"
+  },
+  "rs_latest.json": {
+   "bytes": 45,
+   "sha256": "8f60cf918339ee655c26ff1a91297b7cd48702c1c48d93e02a949ab7912558d1",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_blockNumber"
+  },
+  "rs_receipt_eth.json": {
+   "bytes": 1029,
+   "sha256": "0d54543f34de90f3abced58d4649045428e30b5a9fdd1de89657901deeb6d52e",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x5f8c3a0b74fde822c4ea32d9f9ee5fb672a65dd9290f8448fde38dad1b4bdecf"
+  },
+  "rs_receipt_failed.json": {
+   "bytes": 1032,
+   "sha256": "751493da497632f640293d34ddc7d58aefe1b040c039320b0bb7594eace3f907",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0xa72389d239eee71dfe9ea7a59a1a1b11e15028aa6f211dbc38bc3822164b83ed"
+  },
+  "rs_receipt_none.json": {
+   "bytes": 38,
+   "sha256": "1b9f3e593e73354720f2329c7bc53c56abf4ef1c4ce38ecc7d6aa26c211b9685",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x0000000000000000000000000000000000000000000000000000000000000001"
+  },
+  "rs_receipt_other.json": {
+   "bytes": 3188,
+   "sha256": "9d3b5f6f28eea3ba30fd2af5219d5b6eeb621c9f3e4982044ef340268b802b10",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x6464aca3757d68a42ca8448af53207036b67c20ec8693f1d5ba4cc79d3881d72"
+  },
+  "rs_receipt_poison.json": {
+   "bytes": 4846,
+   "sha256": "029bac1a153a07db78e45755ac9b82d8d6683bebe9a1953d3ec7c5c8efabb387",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06"
+  },
+  "rs_receipt_spam.json": {
+   "bytes": 111870,
+   "sha256": "9892b2b3fb5f92f706cd3758d6354c44a069abbe8d36eeeab3a86595e504a07b",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x641907b05caa5a18aecc9d8379f1322a52b81340731074caef7ec54ed02af3de"
+  },
+  "rs_receipt_t409.json": {
+   "bytes": 10930,
+   "sha256": "254fd1e2ca036b84dbd179bb9a682b8363590fd7a22c738402a3c72025739174",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x7eadcd845362e160fa4a6f1918132c1b2c918fdb25e81cc3358ca11ef8daa1fe"
+  },
+  "rs_receipt_t470.json": {
+   "bytes": 7891,
+   "sha256": "a60e60eef5afe777a74401ea76c879badda39a194aedddc53d3d515841f89018",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036"
+  },
+  "rs_receipt_t836.json": {
+   "bytes": 6498,
+   "sha256": "2ce18763f806a73da73c3d77ae43f0e71619cfa6f57c939b868563f59957937f",
+   "status": 200,
+   "url": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c"
+  },
+  "token_DAI.json": {
+   "bytes": 431,
+   "sha256": "c43173bcc41da3ae72d332bc11d4406acc3d67b5a50b42678e1e7f9c6744df1d",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0x6b175474e89094c44da98b954eedeac495271d0f"
+  },
+  "token_ENS.json": {
+   "bytes": 440,
+   "sha256": "48a565a4459deb59c532e82c0a98a06e6932472b3d2e3b455aa5d9d78c7292b7",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+  },
+  "token_EURC.json": {
+   "bytes": 466,
+   "sha256": "383a6a61e20aa8d0b544bdae86f1a28775d925212c814d11ef5d3b753b090d33",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+  },
+  "token_UNI.json": {
+   "bytes": 436,
+   "sha256": "eedc1d01856e0b47ced8fd50a860f3ef7a3a47ebee73e1eea7ba318f3146c471",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+  },
+  "token_USDC.json": {
+   "bytes": 472,
+   "sha256": "158104f2a98ac891db63144ccca0844b482dd99f7bfcfd38357d48cf3de57b96",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  },
+  "token_USDT.json": {
+   "bytes": 424,
+   "sha256": "f41b314ee4c540897bc239cb6f4a4eca28ba379566be88238085b1766bb03bae",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  "token_WETH.json": {
+   "bytes": 427,
+   "sha256": "df09b2b555efa17f7ee4bc227d109f8acf83b0fafa03de964f3273e0e0562633",
+   "status": 200,
+   "url": "https://eth.blockscout.com/api/v2/tokens/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  }
+ }
+}

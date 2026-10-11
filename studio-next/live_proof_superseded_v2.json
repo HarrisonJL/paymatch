@@ -1,0 +1,128 @@
+[
+ {
+  "id": "reg-eco470",
+  "step": "register",
+  "auth_id": "eco470",
+  "tx": "0x0323156355ccae679a09304255a96854a82b0fb50a7f4f37b38d3a08fc519093",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1762791188,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco470",
+   "cap_raw": "470000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "doc_digest": "2fe96c52d88b0b36abff0a9783780dd0405b5ec818e814c263dbeb1890ac5a7b",
+   "evidence": "The ENS Ecosystem Working Group requests funding of 470,000 USDC to support operations through April 2026.",
+   "flagged_count": 0,
+   "label": "ENS Ecosystem WG: 470,000 USDC (voted Nov 2025)",
+   "matched_raw": "0",
+   "payer": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "payment_count": 0,
+   "proposal_id": "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:01:36.398097+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[6.24.2] [Social] Funding Request: ENS Ecosystem Working Group (Oct. Window)",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "0.0",
+    "approved": true,
+    "end": 1762791188,
+    "for_score": "1375141.4178885242",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ },
+ {
+  "id": "reg-eco836",
+  "step": "register",
+  "auth_id": "eco836",
+  "tx": "0x9cf24da72a6aa6234641ab0dc631430abd0c4f6a0b61d9c6ccb30756a80c312e",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "DISAGREE",
+   "DISAGREE"
+  ],
+  "revert": "authorisation refused: quote_not_in_document",
+  "authorisation": null
+ },
+ {
+  "id": "reg-eco409",
+  "step": "register",
+  "auth_id": "eco409",
+  "tx": "0xbab5e1b9b90c391ae1548faba56388130c62b681bf482612eb98cf97cee4a04c",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "DISAGREE"
+  ],
+  "revert": "authorisation refused: quote_not_in_document",
+  "authorisation": null
+ },
+ {
+  "id": "reg-eco470-alt-payer",
+  "step": "register",
+  "auth_id": "eco470-alt-payer",
+  "tx": "0x9e7aeba4a892bc439c75f29fc5b49852994ba93de75bf19f96f875f346687b1a",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1762791188,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco470-alt-payer",
+   "cap_raw": "470000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "doc_digest": "2fe96c52d88b0b36abff0a9783780dd0405b5ec818e814c263dbeb1890ac5a7b",
+   "evidence": "470,000 USDC",
+   "flagged_count": 0,
+   "label": "the same vote with a look-alike address as payer: a consumer must pin the payer it trusts",
+   "matched_raw": "0",
+   "payer": "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+   "payment_count": 0,
+   "proposal_id": "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:03:56.692777+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[6.24.2] [Social] Funding Request: ENS Ecosystem Working Group (Oct. Window)",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "0.0",
+    "approved": true,
+    "end": 1762791188,
+    "for_score": "1375141.4178885242",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ }
+]

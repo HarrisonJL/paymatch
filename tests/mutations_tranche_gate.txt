@@ -1,0 +1,29 @@
+anyone can release
+---
+        _require(gl.message.sender_address == self.owner, "only the owner can release tranches")
+---
+        _require(True, "only the owner can release tranches")
+===
+a zero tranche is accepted
+---
+        _require(amount_raw > 0, "amount must be positive")
+---
+        _require(True, "amount must be positive")
+===
+tranches can be released out of order
+---
+        _require(tranche == plan.released_count + 1,
+---
+        _require(True,
+===
+the trusted payer may be malformed
+---
+        _require(re.fullmatch(r"0x[0-9a-fA-F]{40}", trusted_payer) is not None, "trusted_payer must be a 0x address")
+---
+        _require(True, "trusted_payer must be a 0x address")
+===
+the trusted payer is compared case-sensitively
+---
+self.trusted_payer = trusted_payer.casefold()
+---
+self.trusted_payer = trusted_payer

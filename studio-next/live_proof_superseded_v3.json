@@ -1,0 +1,1320 @@
+[
+ {
+  "id": "reg-eco470",
+  "step": "register",
+  "auth_id": "eco470",
+  "tx": "0xcd8fd312782da83ebf57ca5a2c7697e5c9e5ff8d75577775659c3e27199d8605",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1762791188,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco470",
+   "cap_raw": "470000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "doc_digest": "2fe96c52d88b0b36abff0a9783780dd0405b5ec818e814c263dbeb1890ac5a7b",
+   "evidence": "The ENS Ecosystem Working Group is requesting **470k in USDC** and zero ETH.",
+   "flagged_count": 0,
+   "label": "ENS Ecosystem WG: 470,000 USDC (voted Nov 2025)",
+   "matched_raw": "0",
+   "payer": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "payment_count": 0,
+   "proposal_id": "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:10:49.535251+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[6.24.2] [Social] Funding Request: ENS Ecosystem Working Group (Oct. Window)",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "0.0",
+    "approved": true,
+    "end": 1762791188,
+    "for_score": "1375141.4178885242",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ },
+ {
+  "id": "reg-eco836",
+  "step": "register",
+  "auth_id": "eco836",
+  "tx": "0x2058f4f4f6b2669563519f1a14a5491bdc0381f95fd8e7c794fc8c46dfea5d8c",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1728925963,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco836",
+   "cap_raw": "836000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreiehxarvfdrhw4tbodt3breveu6s2puyhiosvxhjrlyioiz2eazws4",
+   "doc_digest": "87b823528e27b726170e7b0c495253d2d3e983a1d2adce98af087233a2033697",
+   "evidence": "Ecosystem WG is requesting 836,000 in USDC and zero ETH.",
+   "flagged_count": 0,
+   "label": "ENS Ecosystem WG: 836,000 USDC (voted Oct 2024)",
+   "matched_raw": "0",
+   "payer": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "payment_count": 0,
+   "proposal_id": "0xfe303865510b5ef7fabee2bcbd5081afa01f276195f57e1561ff27c477459984",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:11:14.382712+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[5.17.2] [Social] Funding Request: ENS Ecosystem Working Group",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "0.0",
+    "approved": true,
+    "end": 1728925963,
+    "for_score": "1430723.894916074",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ },
+ {
+  "id": "reg-eco409",
+  "step": "register",
+  "auth_id": "eco409",
+  "tx": "0x4119456c8323e703f3de4dedb24daba07acd88c648f09b54a896aa3410a2a622",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "DISAGREE",
+   "DISAGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1698249600,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco409",
+   "cap_raw": "409000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreia2ahefq7vmmgs5utov7a3db5mskx6rytrahms5c2fdcxkps6o3vq",
+   "doc_digest": "1a01c8587eac61a5da4dd5f83630f59255fd1c4e203b25d168a315d4f979dbac",
+   "evidence": "409,000 USDC",
+   "flagged_count": 0,
+   "label": "ENS Ecosystem WG: 409,000 USDC (voted 2023)",
+   "matched_raw": "0",
+   "payer": "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "payment_count": 0,
+   "proposal_id": "0x12a2abca291496c7e990d099240b4c995099dc0fb85767e04f22b9496e953799",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:11:44.275578+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[4.4.1] [Social] Funding Request: ENS Ecosystem Working Group",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "2.574294922565948",
+    "approved": true,
+    "end": 1698249600,
+    "for_score": "1561994.8008851164",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ },
+ {
+  "id": "reg-eco470-alt-payer",
+  "step": "register",
+  "auth_id": "eco470-alt-payer",
+  "tx": "0x242b28a8338a813b51449a7dff8a78d5c8a7df35a05c242addc5cdd187fb27c5",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "authorisation": {
+   "approved_at": 1762791188,
+   "asset": "USDC",
+   "asset_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "auth_id": "eco470-alt-payer",
+   "cap_raw": "470000000000",
+   "chain": "ethereum",
+   "decimals": 6,
+   "doc_cid": "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "doc_digest": "2fe96c52d88b0b36abff0a9783780dd0405b5ec818e814c263dbeb1890ac5a7b",
+   "evidence": "The ENS Ecosystem Working Group is requesting **470k in USDC** and zero ETH.",
+   "flagged_count": 0,
+   "label": "the same vote with a look-alike address as payer: a consumer must pin the payer it trusts",
+   "matched_raw": "0",
+   "payer": "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+   "payment_count": 0,
+   "proposal_id": "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "recipient": "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "registered_at": "2026-10-11T16:12:30.032482+00:00",
+   "registrant": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "space": "ens.eth",
+   "title": "[6.24.2] [Social] Funding Request: ENS Ecosystem Working Group (Oct. Window)",
+   "valid_to": 0,
+   "vote": {
+    "against_score": "0.0",
+    "approved": true,
+    "end": 1762791188,
+    "for_score": "1375141.4178885242",
+    "space": "ens.eth",
+    "state": "closed"
+   }
+  }
+ },
+ {
+  "id": "refuse-recipient",
+  "step": "refuse",
+  "args": [
+   "x-recipient",
+   "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+   "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "USDC",
+   "470000",
+   "",
+   "a real group address this document never names"
+  ],
+  "note": "recipient not in the document",
+  "tx": "0xf42e80a2ee127881592fc28c2da825cee3eb7fd24c01c01b36d8c9e24a96a09a",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "authorisation refused: recipient_not_in_document"
+ },
+ {
+  "id": "refuse-vote",
+  "step": "refuse",
+  "args": [
+   "x-vote",
+   "0xbc44d9714ee818da49c25998cabdbe745f939fef74923255c3571a00e8977e5d",
+   "bafkreifhxyn66hrmragdms52pk3svo7mh3edb3k7jxpozcbexlpmj5r6kq",
+   "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "USDC",
+   "100000",
+   "",
+   "ENS's vote to replace the working groups, which lost"
+  ],
+  "note": "a vote that did not pass",
+  "tx": "0xf1a210d9fc0cf623898c7b303cff33a2c239e4807b860da689bc721deb55ff70",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "authorisation refused: recipient_not_in_document, cap_not_in_document, vote_did_not_pass"
+ },
+ {
+  "id": "refuse-asset",
+  "step": "refuse",
+  "args": [
+   "x-asset",
+   "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "DAI",
+   "470000",
+   "",
+   "an asset this document never names"
+  ],
+  "note": "asset not named in the document",
+  "tx": "0xac9a7b5054f584644e2059d18a0207abec953fe346fb16a4cb58826f8a6a6c0e",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "authorisation refused: symbol_not_in_document"
+ },
+ {
+  "id": "refuse-duplicate",
+  "step": "refuse",
+  "args": [
+   "x-dup",
+   "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+   "USDC",
+   "470000",
+   "",
+   "the same vote, payer, recipient and asset under another id"
+  ],
+  "note": "a vote counted twice",
+  "tx": "0x3c32e539275375e09e1ded6b993a55caddeb6cc37554abf6c0888afd81b3b3ae",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "that vote already authorises this payer, recipient and asset as 'eco470'"
+ },
+ {
+  "id": "refuse-cap",
+  "step": "refuse",
+  "args": [
+   "x-cap",
+   "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "0x1111111111111111111111111111111111111111",
+   "USDC",
+   "836000",
+   "",
+   "cap that is in another request, not this document"
+  ],
+  "note": "cap not in the document",
+  "tx": "0x71e5c432ab5758f69a3a19f2ab6e3cca5dbc77285c9c8edd5bfdf25dd7683f55",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "authorisation refused: cap_not_in_document"
+ },
+ {
+  "id": "refuse-figure",
+  "step": "refuse",
+  "args": [
+   "x-figure",
+   "0x9b3f5463e52aadc35155e686f8416297b24e6c7e30cb527747e61cf17b42a5f6",
+   "bafkreibp5fwffwelbm3kx7yks6bxqdoqibnv5say5akmey635mmjblc2pm",
+   "0x2686a8919df194aa7673244549e68d42c1685d03",
+   "0x1111111111111111111111111111111111111111",
+   "USDC",
+   "172000",
+   "",
+   "172k is the multisig's line in the request's own budget table, not the request"
+  ],
+  "note": "a figure in the document that is not the request (reader)",
+  "tx": "0xcf48b6d01491f62df43af0da0fbd2df297e59f16826be09e0a36f2623ebd5b0a",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "authorisation refused: document_does_not_authorise_this_payment"
+ },
+ {
+  "id": "v-eco470-match",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "t470",
+  "subject": "0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036",
+  "note": "the treasury paid exactly the approved 470,000 (one of three payments in the transaction)",
+  "tx": "0x3f0edd963b84b1d5e1b35419159d4360750fa427f95a0a9643e361e2c3bdd7e2",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "470000000000",
+   "auth_id": "eco470",
+   "block_number": 24484140,
+   "block_time": 1771422743,
+   "checked_at": "2026-10-11T16:14:53.285628+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       588,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "379000000000"
+      ],
+      [
+       590,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "470000000000"
+      ],
+      [
+       592,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "110000000000"
+      ]
+     ],
+     "block": 24484140,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1771422743,
+     "transfer_count": 3
+    }
+   },
+   "payment_id": 0,
+   "previous_id": null,
+   "reasons": [],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036",
+   "verdict": "MATCH"
+  }
+ },
+ {
+  "id": "v-eco836-match",
+  "step": "verify",
+  "auth_id": "eco836",
+  "tx_key": "t836",
+  "subject": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+  "note": "836,000 paid in 2024",
+  "tx": "0x33960cc9dfff7ec91cf0f86ec6fccb11a7cf92d4b2988fb003a80a2397e6465d",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "836000000000",
+   "auth_id": "eco836",
+   "block_number": 21293645,
+   "block_time": 1732886879,
+   "checked_at": "2026-10-11T16:15:10.182294+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       430,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "254000000000"
+      ],
+      [
+       432,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "836000000000"
+      ],
+      [
+       434,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "226000000000"
+      ]
+     ],
+     "block": 21293645,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1732886879,
+     "transfer_count": 3
+    }
+   },
+   "payment_id": 1,
+   "previous_id": null,
+   "reasons": [],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+   "verdict": "MATCH"
+  }
+ },
+ {
+  "id": "v-eco470-before",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "t836",
+  "subject": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+  "note": "the 2024 payment, against a request voted a year later",
+  "tx": "0xc12bdddb7f0bd1ce35b7ae255936c1ef78ce14b0667d92571f37cb5c8989d8da",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "836000000000",
+   "auth_id": "eco470",
+   "block_number": 21293645,
+   "block_time": 1732886879,
+   "checked_at": "2026-10-11T16:15:26.783859+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       430,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "254000000000"
+      ],
+      [
+       432,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "836000000000"
+      ],
+      [
+       434,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "226000000000"
+      ]
+     ],
+     "block": 21293645,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1732886879,
+     "transfer_count": 3
+    }
+   },
+   "payment_id": 2,
+   "previous_id": 0,
+   "reasons": [
+    "paid before the vote closed"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+   "verdict": "BEFORE_APPROVAL"
+  }
+ },
+ {
+  "id": "v-eco470-recipient",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "other",
+  "subject": "0x6464aca3757d68a42ca8448af53207036b67c20ec8693f1d5ba4cc79d3881d72",
+  "note": "the treasury paying a different group",
+  "tx": "0x9978c27f952a67dc62ee06b42f9229f4aaee049113ce0f20dcf3a5ccf883c310",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 24408379,
+   "block_time": 1770508739,
+   "checked_at": "2026-10-11T16:15:44.108697+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       1294,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "125000000000"
+      ]
+     ],
+     "block": 24408379,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1770508739,
+     "transfer_count": 1
+    }
+   },
+   "payment_id": 3,
+   "previous_id": 2,
+   "reasons": [
+    "the payer sent the asset, but not to the authorised recipient"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x6464aca3757d68a42ca8448af53207036b67c20ec8693f1d5ba4cc79d3881d72",
+   "verdict": "WRONG_RECIPIENT"
+  }
+ },
+ {
+  "id": "v-eco470-payer",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "poison",
+  "subject": "0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06",
+  "note": "0.001 USDC from a look-alike address",
+  "tx": "0x18bd96d26f784c0f8244cf8f133f972b7b399615527d4faaf1c7b466ad982de3",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 24998104,
+   "block_time": 1777614539,
+   "checked_at": "2026-10-11T16:15:55.464543+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       515,
+       "0xdc4858741e738bb304fc5b290e7b9453da6a5baa",
+       "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+       "1000"
+      ],
+      [
+       518,
+       "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "1000"
+      ]
+     ],
+     "block": 24998104,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1777614539,
+     "transfer_count": 6
+    }
+   },
+   "payment_id": 4,
+   "previous_id": 3,
+   "reasons": [
+    "the recipient received the asset, but not from the authorised payer"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06",
+   "verdict": "WRONG_PAYER"
+  }
+ },
+ {
+  "id": "v-eco470-failed",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "failed",
+  "subject": "0xa72389d239eee71dfe9ea7a59a1a1b11e15028aa6f211dbc38bc3822164b83ed",
+  "note": "a reverted transaction",
+  "tx": "0x891cf42d6f92738eb95e71f30b274eee979e89643ebad37cdf120d2c8a19d9e3",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 26069560,
+   "block_time": 1790521355,
+   "checked_at": "2026-10-11T16:16:07.290990+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [],
+     "block": 26069560,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": false,
+     "time": 1790521355,
+     "transfer_count": 0
+    }
+   },
+   "payment_id": 5,
+   "previous_id": 4,
+   "reasons": [
+    "the transaction reverted"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0xa72389d239eee71dfe9ea7a59a1a1b11e15028aa6f211dbc38bc3822164b83ed",
+   "verdict": "TX_FAILED"
+  }
+ },
+ {
+  "id": "v-eco470-nothing",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "eth",
+  "subject": "0x5f8c3a0b74fde822c4ea32d9f9ee5fb672a65dd9290f8448fde38dad1b4bdecf",
+  "note": "a plain ETH transfer",
+  "tx": "0x200ae4e37da4bdf728916239a33712edd1666f76e87bc5aef7caa0558f100bf0",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 26070108,
+   "block_time": 1790527991,
+   "checked_at": "2026-10-11T16:16:24.133543+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [],
+     "block": 26070108,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1790527991,
+     "transfer_count": 0
+    }
+   },
+   "payment_id": 6,
+   "previous_id": 5,
+   "reasons": [
+    "the authorised payer sent none of the asset in this transaction"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x5f8c3a0b74fde822c4ea32d9f9ee5fb672a65dd9290f8448fde38dad1b4bdecf",
+   "verdict": "NO_TRANSFER"
+  }
+ },
+ {
+  "id": "v-eco470-spam",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "spam",
+  "subject": "0x641907b05caa5a18aecc9d8379f1322a52b81340731074caef7ec54ed02af3de",
+  "note": "a 50+ transfer poisoning batch",
+  "tx": "0x0ac36480595b99bd57b8416213b9b1f8aa48d47324f43c90053091b4c1c04716",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 0,
+   "block_time": 0,
+   "checked_at": "2026-10-11T16:16:41.086956+00:00",
+   "facts": {
+    "problems": [
+     "more_transfers_than_the_indexer_lists_in_one_page"
+    ],
+    "view": null
+   },
+   "payment_id": 7,
+   "previous_id": 6,
+   "reasons": [
+    "more_transfers_than_the_indexer_lists_in_one_page"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x641907b05caa5a18aecc9d8379f1322a52b81340731074caef7ec54ed02af3de",
+   "verdict": "UNDETERMINED"
+  }
+ },
+ {
+  "id": "v-eco470-none",
+  "step": "verify",
+  "auth_id": "eco470",
+  "tx_key": "none",
+  "subject": "0x0000000000000000000000000000000000000000000000000000000000000001",
+  "note": "a transaction that does not exist",
+  "tx": "0x129f9da0c90a5d065631c254e643f2e61a7b725767018c7641b795af5480b080",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "0",
+   "auth_id": "eco470",
+   "block_number": 0,
+   "block_time": 0,
+   "checked_at": "2026-10-11T16:16:58.408428+00:00",
+   "facts": {
+    "problems": [
+     "transaction_not_found"
+    ],
+    "view": null
+   },
+   "payment_id": 8,
+   "previous_id": 7,
+   "reasons": [
+    "transaction_not_found"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "verdict": "UNDETERMINED"
+  }
+ },
+ {
+  "id": "v-eco836-cumulative",
+  "step": "verify",
+  "auth_id": "eco836",
+  "tx_key": "t470",
+  "subject": "0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036",
+  "note": "470,000 more would take the total past the 836,000 cap",
+  "tx": "0xa51634d3c1009b96e6081906c972bd2c6d1f2a8627915ed32e73884332edf31e",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "470000000000",
+   "auth_id": "eco836",
+   "block_number": 24484140,
+   "block_time": 1771422743,
+   "checked_at": "2026-10-11T16:17:10.113110+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       588,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "379000000000"
+      ],
+      [
+       590,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "470000000000"
+      ],
+      [
+       592,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "110000000000"
+      ]
+     ],
+     "block": 24484140,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1771422743,
+     "transfer_count": 3
+    }
+   },
+   "payment_id": 9,
+   "previous_id": 1,
+   "reasons": [
+    "the running total would exceed the authorised cap"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036",
+   "verdict": "OVER_CAP"
+  }
+ },
+ {
+  "id": "v-alt-payer-match",
+  "step": "verify",
+  "auth_id": "eco470-alt-payer",
+  "tx_key": "poison",
+  "subject": "0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06",
+  "note": "anyone can be registered as payer: the dust sender 'matches' its own dust",
+  "tx": "0x1a4c6f817748d1ee04753ae7e00278451653ac53718cc3c025e03686e4eeb3ce",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "1000",
+   "auth_id": "eco470-alt-payer",
+   "block_number": 24998104,
+   "block_time": 1777614539,
+   "checked_at": "2026-10-11T16:17:26.794398+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       515,
+       "0xdc4858741e738bb304fc5b290e7b9453da6a5baa",
+       "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+       "1000"
+      ],
+      [
+       518,
+       "0x703abdbb99c60068f78737bb3bf94869b9cc789b",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "1000"
+      ]
+     ],
+     "block": 24998104,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1777614539,
+     "transfer_count": 6
+    }
+   },
+   "payment_id": 10,
+   "previous_id": null,
+   "reasons": [],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x09fc99e8734ae9a5ff57b7ad57c1cd5ed6ceb61ca8eee71ca27c3ab616037d06",
+   "verdict": "MATCH"
+  }
+ },
+ {
+  "id": "g-release-1",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   1,
+   "200000000000"
+  ],
+  "note": "tranche 1 of 200,000 USDC before anything is paid: allowed (nothing earlier is owed)",
+  "tx": "0xdebe6fce01fa3ca771c86cbbe2f1c7f692cde04b68e3527461a91f798d442325",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-unpaid",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   2,
+   "100000000000"
+  ],
+  "note": "tranche 2 while tranche 1 is unpaid: refused",
+  "tx": "0x1e695b1b33e06432521a1c5a8c38cbcd59d0032bae2898d342900938e4022beb",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-verify-409",
+  "step": "verify",
+  "auth_id": "eco409",
+  "tx_key": "t409",
+  "subject": "0x7eadcd845362e160fa4a6f1918132c1b2c918fdb25e81cc3358ca11ef8daa1fe",
+  "note": "the real 409,000 payment is verified",
+  "tx": "0xbce7152814fa684b0605cc2ea63ba7219432a3f830c60dba282c355d51ba5cfc",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "409000000000",
+   "auth_id": "eco409",
+   "block_number": 18614820,
+   "block_time": 1700505335,
+   "checked_at": "2026-10-11T16:18:25.224386+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       179,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "409000000000"
+      ],
+      [
+       181,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "376000000000"
+      ],
+      [
+       187,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "218204000000"
+      ]
+     ],
+     "block": 18614820,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [
+      [
+       "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "52300000000000000000000"
+      ]
+     ],
+     "success": true,
+     "time": 1700505335,
+     "transfer_count": 4
+    }
+   },
+   "payment_id": 11,
+   "previous_id": null,
+   "reasons": [],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x7eadcd845362e160fa4a6f1918132c1b2c918fdb25e81cc3358ca11ef8daa1fe",
+   "verdict": "MATCH"
+  }
+ },
+ {
+  "id": "g-release-2",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   2,
+   "100000000000"
+  ],
+  "note": "tranche 2 once the payment is on record: allowed",
+  "tx": "0xaf9e2a74c976f3661774ea2f5feb3e5303eaf42adf18625f7e03df4876a9fb70",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-cap",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   3,
+   "200000000000"
+  ],
+  "note": "tranche 3 would take releases past the cap: refused",
+  "tx": "0xd86e52e424fa2a0e6edfd6ae5bde8af58f104f1e3dc66675b302fc660aae8134",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-missing",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "nope",
+   1,
+   "1000000"
+  ],
+  "note": "an authorisation PayMatch has never heard of: refused",
+  "tx": "0x6bd3f0f1ae452d36f3e481a432c940fe745b520444f5fad10e4a0e58dcef67e2",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "nope",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-order",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   9,
+   "1000000"
+  ],
+  "note": "a tranche out of order: refused",
+  "tx": "0x3bd4714ffedf10c10c951a6b0705b102663be924c1970539b0044850430a5121",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-flagged",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco470",
+   1,
+   "1000000"
+  ],
+  "note": "eco470 has flagged payments against it: refused",
+  "tx": "0x38f054a9a2e8cd53fdef748b0a91902e0a868bc53efbaf09cc806cc2afe26c78",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco470",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-payer",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco470-alt-payer",
+   1,
+   "1000000"
+  ],
+  "note": "an authorisation naming a payer the gate does not trust: refused",
+  "tx": "0x8ddae18f1d1a0bc86437f64eecffe098ccf5808bf8a1993bdab22f990fff9c2b",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "AGREE",
+   "IDLE",
+   "AGREE",
+   "IDLE",
+   "AGREE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco470-alt-payer",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ },
+ {
+  "id": "g-verify-overcap",
+  "step": "verify",
+  "auth_id": "eco409",
+  "tx_key": "t836",
+  "subject": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+  "note": "the 836,000 payment against the 409,000 request: OVER_CAP, flagged",
+  "tx": "0xaa9d20e704db21d3622a9df13a2f27c8ea0a166173ec9cf532975c200f0ee719",
+  "result": "FINISHED_WITH_RETURN",
+  "votes": [
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE",
+   "IDLE"
+  ],
+  "revert": "",
+  "payment": {
+   "amount_raw": "836000000000",
+   "auth_id": "eco409",
+   "block_number": 21293645,
+   "block_time": 1732886879,
+   "checked_at": "2026-10-11T16:19:35.400952+00:00",
+   "facts": {
+    "problems": [],
+    "view": {
+     "asset_transfers": [
+      [
+       430,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x91c32893216de3ea0a55abb9851f581d4503d39b",
+       "254000000000"
+      ],
+      [
+       432,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0x2686a8919df194aa7673244549e68d42c1685d03",
+       "836000000000"
+      ],
+      [
+       434,
+       "0xfe89cc7abb2c4183683ab71653c4cdc9b02d44b7",
+       "0xcd42b4c4d102cc22864e3a1341bb0529c17fd87d",
+       "226000000000"
+      ]
+     ],
+     "block": 21293645,
+     "complete": true,
+     "confirmed": true,
+     "found": true,
+     "other_from_payer": [],
+     "success": true,
+     "time": 1732886879,
+     "transfer_count": 3
+    }
+   },
+   "payment_id": 12,
+   "previous_id": 11,
+   "reasons": [
+    "the running total would exceed the authorised cap"
+   ],
+   "submitted_by": "0x5cdb5699bc1038e115A973bb91A646f7E98C075b",
+   "tx_hash": "0x80b10aa629605bbe6d5f3baf2e3e3b86c4dbe66ee2421663317b29d01454fa8c",
+   "verdict": "OVER_CAP"
+  }
+ },
+ {
+  "id": "g-flagged-after",
+  "step": "gate",
+  "call": "release",
+  "args": [
+   "eco409",
+   3,
+   "1000000"
+  ],
+  "note": "eco409 is now flagged too: refused",
+  "tx": "0x155ee6509d80215d62b805b8b9ddd7976aa69d82abd68863902ec297c58f2608",
+  "result": "FINISHED_WITH_ERROR",
+  "votes": [
+   "IDLE",
+   "AGREE",
+   "AGREE",
+   "AGREE",
+   "IDLE"
+  ],
+  "revert": "",
+  "plan": {
+   "auth_id": "eco409",
+   "released_count": 0,
+   "released_raw": "0"
+  }
+ }
+]
